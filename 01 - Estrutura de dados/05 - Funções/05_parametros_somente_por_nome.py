@@ -1,3 +1,8 @@
+# PARÂMETROS PODE SEM POSICIONAIS, NOMEADOS OU HIBRIDOS
+# Para definir uma forma obrigatória de parâmetro:
+# / - todos os anteriores a ela são declarados apenas por posição 
+# * - todos os parâmetros após a ele são nomeados
+
 def criar_carro(modelo, ano, placa, /, *, marca, motor, combustivel):
     print(modelo, ano, placa, marca, motor, combustivel)
 
