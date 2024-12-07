@@ -1,3 +1,6 @@
+'''Lista aninhadas - lista declarada dentro de outra lista 
+importante para formar matrix/tabelas. (colunas x linhas)'''
+
 matriz = [
     [1, "a", 2],
     ["b", 3, 4],

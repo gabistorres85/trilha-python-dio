@@ -1,3 +1,5 @@
+# método para adicionar a lista 
+
 lista = []
 
 lista.append(1)

@@ -10,5 +10,6 @@ for chave in contatos:
 
 print("=" * 100)
 
+# esse é o método mais elegante
 for chave, valor in contatos.items():
     print(chave, valor)
